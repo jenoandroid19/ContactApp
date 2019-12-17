@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/slidelinearlayout">
+
+    <ScrollView
+        style="@style/matchParent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            style="@style/matchParent"
+            android:padding="35dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/home_phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/home_phone_txt"
+                    style="@style/wrapContent"
+                    android:text="Home" />
+
+                <TextView
+                    android:id="@+id/view_home_phone"
+                    style="@style/phoneView"
+                    android:layout_below="@+id/home_phone_txt" />
+
+                <ImageView
+                    android:id="@+id/home_call"
+                    style="@style/callIconStyle" />
+
+                <ImageView
+                    android:id="@+id/home_sms"
+                    style="@style/msgIconStyle" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/mobile_phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/mobile_phone_txt"
+                    style="@style/wrapContent"
+                    android:text="Mobile" />
+
+                <TextView
+                    android:id="@+id/view_mobile_phone"
+                    style="@style/phoneView"
+                    android:layout_below="@+id/mobile_phone_txt" />
+
+                <ImageView
+                    android:id="@+id/mobile_call"
+                    style="@style/callIconStyle" />
+
+                <ImageView
+                    android:id="@+id/mobile_sms"
+                    style="@style/msgIconStyle" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/work_phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/work_phone_txt"
+                    style="@style/wrapContent"
+                    android:text="Work" />
+
+                <TextView
+                    android:id="@+id/view_work_phone"
+                    style="@style/phoneView"
+                    android:layout_below="@id/work_phone_txt" />
+
+                <ImageView
+                    android:id="@+id/work_call"
+                    style="@style/callIconStyle" />
+
+                <ImageView
+                    android:id="@+id/work_sms"
+                    style="@style/msgIconStyle" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/other_phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/other_phone_txt"
+                    style="@style/wrapContent"
+                    android:text="Other" />
+
+                <TextView
+                    android:id="@+id/view_other_phone"
+                    style="@style/phoneView"
+                    android:layout_below="@+id/other_phone_txt" />
+
+                <ImageView
+                    android:id="@+id/other_call"
+                    style="@style/callIconStyle"/>
+
+                <ImageView
+                    android:id="@+id/other_sms"
+                    style="@style/msgIconStyle" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/home_email_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/home_email_txt"
+                    style="@style/wrapContent"
+                    android:text="Home" />
+
+                <TextView
+                    android:id="@+id/view_home_email"
+                    style="@style/emailView"
+                    android:layout_below="@+id/home_email_txt" />
+
+                <ImageView
+                    android:id="@+id/home_email"
+                    style="@style/emailIconStyle" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/work_email_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/work_email_txt"
+                    style="@style/wrapContent"
+                    android:text="Work" />
+
+                <TextView
+                    android:id="@+id/view_work_email"
+                    style="@style/emailView"
+                    android:layout_below="@+id/work_email_txt" />
+
+                <ImageView
+                    android:id="@+id/work_email"
+                    style="@style/emailIconStyle" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/other_email_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/other_email_txt"
+                    style="@style/wrapContent"
+                    android:text="Other" />
+
+                <TextView
+                    android:id="@+id/view_other_email"
+                    style="@style/emailView"
+                    android:layout_below="@+id/other_email_txt" />
+
+                <ImageView
+                    android:id="@+id/other_email"
+                    style="@style/emailIconStyle" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/home_address_txt"
+                style="@style/wrapContent"
+                android:layout_marginTop="20dp"
+                android:text="Home" />
+
+            <TextView
+                android:id="@+id/view_home_address"
+                style="@style/wrapContent"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/work_address_txt"
+                style="@style/wrapContent"
+                android:layout_marginTop="20dp"
+                android:text="Work" />
+
+            <TextView
+                android:id="@+id/view_work_address"
+                style="@style/wrapContent"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/other_address_txt"
+                style="@style/wrapContent"
+                android:layout_marginTop="20dp"
+                android:text="Other" />
+
+            <TextView
+                android:id="@+id/view_other_address"
+                style="@style/wrapContent"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
