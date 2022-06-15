@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
         mPermissionUtil = new PermissionUtil(this);
         mLoadContact = new LoadContacts();
 
+
         mSearchContact.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
